@@ -136,4 +136,23 @@ li{
 
 
 
+footer{
+    background-color: #333;
+    height: 150px;
+    text-align: center;
+    font-size: large;
+    font-family: monospace;
+    color: white;
+    
+}
 
+span.tel{
+    text-align: left;
+    
+}
+
+
+span.email{
+    margin-right: auto;
+    
+}
