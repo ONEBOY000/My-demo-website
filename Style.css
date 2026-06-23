@@ -1,0 +1,139 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+body,index.html{
+    background-color: rgb(26, 24, 24);
+}
+
+
+.header header{
+    background-color: white;
+    height: 150px;
+    text-align: center;
+    background-color: #333;
+    color: white;
+    font-family: monospace;
+    font-size: 200%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline-color: invert;
+    
+    
+}
+
+
+
+
+h3.intro{
+
+    text-align: center;
+    background-color: rgb(73, 73, 73);
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+    margin: auto;
+    width: 25%;
+
+    
+}
+p{
+    font-family: monospace;
+    font-size: 20px;
+    margin-left: 10px;
+    color: white;
+    text-align: center;
+}
+
+
+h3{
+    text-align: center;
+    background-color: rgb(73, 73, 73);
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+    width: 10%;
+    margin: auto;
+}
+
+
+
+
+
+
+
+.image img{
+    height: 700px;
+    width: 700px;
+    border-radius: 50%;
+    border: 10px solid white;
+    display: flex;
+    margin: auto;
+    
+}
+
+
+
+
+
+
+h4{
+    text-align: left;
+    background-color: rgb(73, 73, 73);
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+    margin-left: 0px;
+    width: 21%;
+}
+
+
+table{
+    width: 50%;
+    color: white;
+    font-family: monospace;
+    font-size: 20px;
+    margin: auto;
+    text-align: center;
+    background-color: rgb(73, 73, 73);
+    border-radius: 20px;
+    padding: 20px;
+    
+}
+
+
+
+
+ul{
+    background-color: deepskyblue;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    border-radius: 20px;
+    
+}
+
+
+
+
+li{
+    font-family: monospace;
+    font-size: 20px;
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+    
+    
+    
+    
+    
+}
+
+
+
+
