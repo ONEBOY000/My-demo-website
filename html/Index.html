@@ -8,16 +8,26 @@
     <link rel="stylesheet" href="../firstpage.css"> <!-- ลิงก์ไปยังไฟล์ CSS -->
 </head>
 <body>
+
+    <div id="particles-js"></div>
+
+
+
+
+
+
+
     <div class="header">
         <header><b>Welcome to my webpage</b></header>
     </div>
     <br>
     <!-- class ระบุชื่อให้กับกลุ่มแท็กนั้นๆ -->
     <h3 class = "intro">This webpage made for learning HTML and CSS</h3>
-    br
-    <div>
+    <br>
+
+    <div class="paragraph">
         <p>Let me indroduce myself. My name is fluke. <br> I'm 16 years old. My birthday is on March 12th 2010.<br> I'm was born in NongKhai province from thailand.<br> I'm study at Pathumthepwittayakarn in NongKhai. <br> My favorit hobbies is playing games, draw pictures,<br> watching movie, learn code and make programs </p>
-    </div>
+    </div> 
     <br>
     <table><!-- สร้างตาราง -->
         <tr><!-- สร้างแถวตาราง -->
@@ -51,5 +61,35 @@
     <br>
     
     
+
+
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+<script>
+particlesJS("particles-js", {
+    particles: {
+        number: {
+            value: 100
+        },
+        color: {
+            value: "#ffffff"
+        },
+        shape: {
+            type: "circle"
+        },
+        opacity: {
+            value: 0.5
+        },
+        size: {
+            value: 3
+        },
+        move: {
+            enable: true,
+            speed: 2
+        }
+    }
+});
+</script>
 </body>
 </html>
